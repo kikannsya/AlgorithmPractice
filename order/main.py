@@ -18,9 +18,10 @@ def  func4(n):
     if n <= 1:
         return
     func4(n/2)
+
 #O(n^2)
 def func5(numbers):
-    for i in range(len(numbres)):
+    for i in range(len(numbers)):
         for j in range(len(numbers)):
             print(numbers[i], numbers[j])
         print()
