@@ -7,7 +7,7 @@ def bubble_sort(numbers):
                 buff = numbers[j]
                 numbers[j] = numbers[j+1]
                 numbers[j+1] = buff
-            
+    return numbers
 
 if "__name__" == "__main__":
     print(bubble_sort([5, 2, 1, 3 , 4]))
