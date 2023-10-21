@@ -2,6 +2,7 @@ import random
 
 
 def bogo_sort(numbers):
+    random.shuffle(numbers)
     print(numbers)
 
 
