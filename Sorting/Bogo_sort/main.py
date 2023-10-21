@@ -4,7 +4,7 @@ from typing import list
 
 
 def in_order(numbers: List[int]) -> bool:
-    return all((numbers[i] <= numbers[i+1] i for i in range(len(numbers)-1)))
+    return all((numbers[i] <= numbers[i+1] for i in range(len(numbers)-1)))
     # for i in range(len(numbers)-1):
     #     if numbers[i] > numbers[i+1]:
     #         return False
