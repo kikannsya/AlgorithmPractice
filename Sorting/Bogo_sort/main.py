@@ -1,5 +1,5 @@
 import random
-from typing import list
+from typing import List
 # python document で　typing 要確認
 
 
