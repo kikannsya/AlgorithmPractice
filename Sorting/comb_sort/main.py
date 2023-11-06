@@ -21,5 +21,5 @@ def comb_sort(numbers: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     import random
-    nums = [random.randint(0,10000) for i in range(10)]
-    print(comb_sort(nums)) 
+    num = [random.randint(0,10000) for i in range(10)]
+    print(comb_sort(num)) 
