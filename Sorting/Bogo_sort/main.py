@@ -10,6 +10,9 @@ def in_order(numbers: List[int]) -> bool:
     #         return False
     # return True
 
+#bogo_sort algorithm 
+# shuffling list until sorted 
+
 def bogo_sort(numbers: List[int]) ->  List[int]:
     while not in_order(numbers):
         random.shuffle(numbers)
